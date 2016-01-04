@@ -117,7 +117,17 @@ log4j.main = {
 }
 
 
-
+// add your details
 grails.plugin.cloudinary.apiKey = 'apiKey'
 grails.plugin.cloudinary.apiSecret = 'apiSecret'
 grails.plugin.cloudinary.cloudName = 'cloudName'
+
+
+ grails.config.locations = [ "classpath:${appName}-config.properties",
+                             "classpath:${appName}-config.groovy",
+                             "file:${userHome}/.grails/${appName}-config.properties",
+                             "file:${userHome}/.grails/${appName}-config.groovy"]
+
+ if (System.properties["${appName}.config.location"]) {
+    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
+ }
