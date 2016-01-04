@@ -125,6 +125,11 @@ crashlytics-build.properties
 # Although this should work for most versions of grails, it is
 # suggested that you use the "grails integrate-with --git" command
 # to generate your .gitignore file.
+/.DS_Store
+/.slcache
+/grailsw
+/grailsw.bat
+/wrapper
 
 # web application files
 /web-app/WEB-INF/classes
