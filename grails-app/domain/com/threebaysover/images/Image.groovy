@@ -1,5 +1,11 @@
 package com.threebaysover.images
 
+/**
+ *  domain class for Image metadata based of basic information retrun from Cloudinary upload
+ *
+ * @author Meni Lubetkin
+ * @version 1.0
+ */
 class Image {
 
     String publicId

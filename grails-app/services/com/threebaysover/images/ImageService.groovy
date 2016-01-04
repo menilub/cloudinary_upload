@@ -4,6 +4,13 @@ import com.cloudinary.Cloudinary
 import grails.plugin.cloudinary.CloudinaryConfig
 import grails.transaction.Transactional
 
+/**
+ *  simple service for image upload  to Cloudinary
+ *
+ * @author Meni Lubetkin
+ * @version 1.0
+ */
+
 @Transactional
 class ImageService {
 

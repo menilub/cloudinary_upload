@@ -118,6 +118,6 @@ log4j.main = {
 
 
 
-grails.plugin.cloudinary.apiKey = apiKey
-grails.plugin.cloudinary.apiSecret = apiSecret
-grails.plugin.cloudinary.cloudName = cloudName
+grails.plugin.cloudinary.apiKey = '819269225362938'
+grails.plugin.cloudinary.apiSecret = 'ORhT0m-TEh0lb1dYRY3TcBeuQyk'
+grails.plugin.cloudinary.cloudName = 'threebaysover'

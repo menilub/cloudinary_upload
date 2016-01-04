@@ -7,6 +7,13 @@ import org.springframework.web.multipart.MultipartHttpServletRequest
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
+/**
+ *  simple contoller for image upload to Cloudinary
+ *
+ * @author Meni Lubetkin
+ * @version 1.0
+ */
+
 @Transactional(readOnly = true)
 class ImageController {
 
